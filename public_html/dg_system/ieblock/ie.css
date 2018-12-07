@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+
+#block-arwm-ie6bar-ie6bar {
+	height: 356px;
+	background: #1D2029 url(/dg_system/ieblock/bg.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	position: relative;
+	width:expression(document.body.clientWidth < 960? "960px": "auto");
+	z-index: 100;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-close {
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	right: 22px;
+	top: 22px;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-close a:link,
+#block-arwm-ie6bar-ie6bar .ie6bar-close a:active,
+#block-arwm-ie6bar-ie6bar .ie6bar-close a:visited,
+#block-arwm-ie6bar-ie6bar .ie6bar-close a:hover {
+	width: 27px;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	background: url(/dg_system/ieblock/close.gif) no-repeat top left;
+	text-decoration: none;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-close a:hover {
+	background-position: bottom left;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-video {
+	position: absolute;
+	top: 30px;
+	right: 110px;
+	font-size: 13px;
+	color: #fff;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-video a:link,
+#block-arwm-ie6bar-ie6bar .ie6bar-video a:active,
+#block-arwm-ie6bar-ie6bar .ie6bar-video a:visited,
+#block-arwm-ie6bar-ie6bar .ie6bar-video a:hover {
+	color: #00ccff;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-video a:hover {
+	text-decoration: none;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-video a span {
+	display: block;
+	width: 64px;
+	height: 39px;
+	background: url(/dg_system/ieblock/video.gif) no-repeat center center;
+	position: absolute;
+	top: -3px;
+	left: -80px;
+	cursor: hand;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-title {
+	font-size: 23px;
+	color: #fff;
+	line-height: 35px;
+	margin-left: 6%;
+	margin-top: 25px;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	border: 0;
+	border-collapse: separate;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table td,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table tr {
+	border: 0;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:link,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:active,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:visited,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:hover {
+	color: #fff;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:hover {
+	color: #ffff00;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table td {
+	text-align: center;
+	width: 20%;
+}
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:link,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:active,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:visited,
+#block-arwm-ie6bar-ie6bar table.ie6bar-icons-table a:hover {
+	display: block;
+	width: 100%;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icons {
+	display: block;
+	width: 100%;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 20px;
+	cursor: pointer !important;
+	//cursor: hand;
+	margin-left: auto;
+	margin-right: auto;
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icon-chrome {
+	background-image: url(/dg_system/ieblock/chrome.png) !important;
+	//background-image: none;
+	width: 114px;
+	//filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dg_system/ieblock/chrome.png', sizingMethod='scale');
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icon-safari {
+	background-image: url(/dg_system/ieblock/safari.png) !important;
+    //background-image: none;
+    width: 117px;
+    //filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dg_system/ieblock/safari.png', sizingMethod='scale');
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icon-firefox {
+	background-image: url(/dg_system/ieblock/firefox.png) !important;
+    //background-image: none;
+    width: 113px;
+    //filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dg_system/ieblock/firefox.png', sizingMethod='scale');
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icon-opera {
+	background-image: url(/dg_system/ieblock/opera.png) !important;
+    //background-image: none;
+    width: 104px;
+    //filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dg_system/ieblock/opera.png', sizingMethod='scale');
+}
+#block-arwm-ie6bar-ie6bar .ie6bar-icon-explorer {
+	background-image: url(/dg_system/ieblock/explorer.png) !important;
+    //background-image: none;
+    width: 131px;
+    //filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/dg_system/ieblock/explorer.png', sizingMethod='scale');
+}

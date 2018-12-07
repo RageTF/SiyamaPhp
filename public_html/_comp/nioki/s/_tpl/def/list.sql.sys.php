@@ -1,0 +1,1 @@
+<? $sql = "SELECT * FROM `".$table."` WHERE `sys_show`=1 AND `sys_page`=".$page." ORDER BY `sys_order` ".$limit; ?>

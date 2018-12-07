@@ -1,0 +1,1 @@
+<?=page_parse($p[$page]["max"],$total)?>

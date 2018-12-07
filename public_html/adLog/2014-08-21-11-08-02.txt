@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<output>
+  <Results>
+    <Result>OK</Result>
+  </Results>
+  <Errors>
+    <Warn> Не получены данные с генераторов по заказу</Warn>
+  </Errors>
+</output>
+
+
+?type=1&clientid=569&cityname=%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C&client=%D0%92%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2&phone=8%28927%29+577-58-08&street=%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F+&home=64&corps=%D0%90&room=1&frontdoor=1&level=1&doorphone=1&flatwarecount=2&mail=9853800930%40mail.ru&comment=&order=404%231%2C222%231%2C342%231%2C433%231

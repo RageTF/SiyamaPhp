@@ -1,0 +1,7 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.fs{background: url(/dg_system/dg_img/icons/monitor.png) no-repeat;}
+.textareafullscreen{position: fixed;   width: 100%; height: 800px; top:0px; left: 0px; background: #fff; padding: 5px;  z-index:999999;}
+.textareafullscreen textarea{ height: 100%; width: 99%; }

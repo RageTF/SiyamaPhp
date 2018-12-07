@@ -1,0 +1,1 @@
+<li><strong><?=$row['name']?></strong><span><?=$row['des']?></span><img src="<?=$row['img']?>" /></li> 

@@ -1,0 +1,1 @@
+<p><a href="<?=$p[$page]["url"]?>"><?=$p[$page]["name"]?></a></p>

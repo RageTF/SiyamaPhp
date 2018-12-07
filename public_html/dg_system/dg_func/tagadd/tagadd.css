@@ -1,0 +1,5 @@
+.tag_add_input,#tag_input_id,#tag_input_id2{border:solid 1px #CCCCCC; width:80%; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.tag_add_input_form{position:absolute; width:auto; border:solid 1px #CCCCCC; margin-top:25px; background:#FFFFFF;}
+.tag_add_input_form li{list-style:none; cursor:pointer; line-height:20px; border-bottom:dotted 1px #CCCCCC; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#999999; padding:5px;//padding:2px;}
+.tag_add_input_form li b{color:#0099CC;}
+.tag_add_input_form_sel{ background:#C2DCE2; color:#fff; }
